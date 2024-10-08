@@ -1,0 +1,36 @@
+.containerParent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+   
+
+}
+.hero{
+    position: absolute;
+    
+}
+.containerChild{
+    margin-top: 5em;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+
+}
+.card{
+background-color: antiquewhite;
+width: 200px;
+margin-left: 1em;
+text-align: center;
+
+
+}
+.card>div>img{
+    width:100px;
+    height:100%
+}
+.containerParent >h1{
+    z-index: 3;
+}
